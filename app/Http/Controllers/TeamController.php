@@ -13,8 +13,8 @@ class TeamController extends Controller
     public function index()
     {
         // Récupérer tous les membres de l'équipe
-        $teams = Team::orderBy('date_joined', 'desc')->get();
-        return view('teams.index', compact('teams'));
+        //$teams = Team::orderBy('date_joined', 'desc')->get();
+        return view('teams.index');
     }
 
     /**

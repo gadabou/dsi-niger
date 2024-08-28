@@ -13,8 +13,9 @@ class CategorieController extends Controller
     public function index()
     {
         // Récupérer toutes les catégories
-        $categories = Categorie::orderBy('created_at', 'desc')->get();
-        return view('categories.index', compact('categories'));
+        //$categories = Categorie::orderBy('created_at', 'desc')->get();
+        //return view('categories.index', compact('categories'));
+        return view('categories');
     }
 
     /**
