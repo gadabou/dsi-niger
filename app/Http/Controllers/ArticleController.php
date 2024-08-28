@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Article;
 use Illuminate\Http\Request;
 
@@ -12,8 +13,9 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = Article::ordered()->get();
-        return view('articles.index', compact('articles'));
+        #$articles = Article::ordered()->get();
+        #return view('articles.index', compact('articles'));
+        return view('articles');
     }
 
     /**

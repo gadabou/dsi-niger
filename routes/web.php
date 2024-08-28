@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\AccueilController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,10 +18,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 
-});
+});*/
+Route::get('/', [AccueilController::class, 'index'])->name('index');
 
 // Routes pour le CRUD des articles
 Route::resource('articles', ArticleController::class);

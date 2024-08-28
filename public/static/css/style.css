@@ -1,9 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
-    --secondary: #34AD54;
+    --primary: #E05206;
+    --secondary: #0DB02B;
     --light: #EEF9FF;
-    --dark: #091E3E;
+    --dark: #0DB02B;
+    /*--dark: #091E3E;*/
 }
 
 
@@ -57,7 +58,13 @@
     opacity: 1;
 }
 
-
+/* Topbar */
+.topbar {
+    background-color: #0DB02B;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: none;
+}
 /*** Heading ***/
 h1,
 h2,
@@ -77,28 +84,35 @@ h6,
     font-weight: 600 !important;
 }
 
-
 /*** Button ***/
 .btn {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
+    color: #FFFFFF;
+    background-color: #E05206;
 }
 
 .btn-primary,
 .btn-secondary {
     color: #FFFFFF;
     box-shadow: inset 0 0 0 50px transparent;
+    background-color: #E05206;
 }
 
 .btn-primary:hover {
     box-shadow: inset 0 0 0 0 var(--primary);
+    background-color: #0DB02B;
+    color: #FFFFFF;
 }
 
 .btn-secondary:hover {
     box-shadow: inset 0 0 0 0 var(--secondary);
 }
-
+/*.text-primary{
+    background-color: #E05206;
+    color: #FFFFFF;
+}*/
 .btn-square {
     width: 36px;
     height: 36px;
@@ -307,6 +321,155 @@ h6,
 
 @-webkit-keyframes section-title-run-sm {
     0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
+}
+/* Facts Section */
+.facts {
+    background-color: #FFFFFF; /* Background color of the facts section */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.facts .container {
+    padding-top: 5rem;
+}
+
+.facts .bg-primary {
+    background-color:  #E05206 !important; /* Green background for primary fact boxes */
+}
+
+.facts .bg-light {
+    background-color: #0DB02B !important; /* Orange background for light fact box */
+}
+
+.facts h5, .facts h1 {
+    color: #FFFFFF; /* White text for headers */
+}
+
+.facts .text-primary {
+    color: #E05206 !important; /* Green text for specific elements */
+}
+
+.facts .text-white {
+    color: #FFFFFF !important; /* White text for all elements with this class */
+}
+
+.facts i {
+    color: #0DB02B !important; /* Green icons */
+}
+
+.facts .bg-white {
+    background-color: #FFFFFF !important; /* White background for icon circles */
+    color: #0DB02B !important; /* Green color for icons inside circles */
+}
+
+/* About Section */
+.about .section-title h5 {
+    color: #0DB02B; /* Orange for the small heading */
+}
+
+.about .section-title h1 {
+    color: #E05206; /* Green for the main heading */
+}
+
+.about .fa-check {
+    color: #E05206; /* Orange for the check icons */
+}
+
+.about .bg-primary {
+    background-color: #E05206 !important; /* Green background for the phone icon */
+}
+
+.about .text-primary {
+    color: #0DB02B !important; /* Green text for phone number and other primary elements */
+}
+
+.about .btn-primary {
+    background-color: #E05206 !important; /* Green background for the button */
+    border-color: #E05206 !important; /* Green border for the button */
+}
+
+.about .btn-primary:hover {
+    background-color: #0DB02B !important; /* Orange background for the button on hover */
+    border-color: #E05206 !important; /* Orange border for the button on hover */
+}
+
+.about .wow.fadeInUp {
+    animation-delay: 0.1s;
+}
+
+.about .wow.zoomIn {
+    animation-delay: 0.2s;
+}
+
+
+/* Features Section */
+.features .section-title h5{
+    color: #0DB02B; /* Vert for the small heading */
+}
+
+.features .section-title h1 {
+    color: #E05206; /* Green for the main heading */
+}
+
+.features .bg-primary {
+    background-color: #E05206 !important; /* Green background for the icons */
+}
+
+.features .fa {
+    color: #FFFFFF; /* White color for the icons */
+}
+
+.features h4 {
+    color: #0DB02B; /* Green color for the feature titles */
+}
+
+.features p {
+    color: #555555; /* Default paragraph color */
+}
+
+.features .btn-primary {
+    background-color: #E05206 !important; /* Green background for any buttons */
+    border-color: #E05206 !important; /* Green border for any buttons */
+}
+
+.features .btn-primary:hover {
+    background-color: #E05206 !important; /* Orange background for buttons on hover */
+    border-color: #E05206 !important; /* Orange border for buttons on hover */
+}
+
+/* Service Section */
+.service-item .service-icon i {
+    color: #E05206; /* Orange for icons */
+}
+.section-title h1 {
+    color: #E05206; /* Orange for the main heading */
+    margin-bottom: 0;
+}
+
+.service-item h4 {
+    color: #0DB02B; /* Green for headings */
+}
+
+.service-item a.btn-primary {
+    background-color: #0DB02B; /* Green for primary buttons */
+    border-color: #0DB02B;
+}
+
+.service-item a.btn-primary:hover {
+    background-color: #E05206; /* Orange for primary buttons on hover */
+    border-color: #E05206;
+}
+
+.bg-primary {
+    background-color: #0DB02B !important; /* Green for primary background */
+}
+
+.text-white {
+    color: #ffffff; /* White text for contrast */
+}
+
+.position-relative.bg-primary {
+    background-color: #0DB02B !important; /* Green background for the call-to-action section */
 }
 
 
