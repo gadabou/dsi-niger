@@ -17,9 +17,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
+    <!-- Icon Font Stylesheet-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<!--<link href="{{asset('static/css/all.min.css')}}" rel="stylesheet">
+    <link href="{{asset('static/css/bootstrap-icons.css')}}" rel="stylesheet">-->
 
     <!-- Libraries Stylesheet -->
     <link href="{{asset('static/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
@@ -42,7 +45,7 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block" style="background-color: #0DB02B;">
+    <div class="container-fluid px-5 d-none d-lg-block topbar">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">

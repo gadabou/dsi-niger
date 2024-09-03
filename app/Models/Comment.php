@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Models;
-
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -9,15 +8,15 @@ class Comment extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'post_id',
+        'article_id',
         'email',
         'body',
         'name',
     ];
 
-    public function post()
+    public function acticle()
     {
-        return $this->belongsTo(Article::class, 'post_id');
+        return $this->belongsTo(Article::class, 'article_id');
     }
 
     public function getCreatedAtAttribute($value)

@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -8,7 +9,7 @@ class Article extends Model
     use HasFactory;
     protected $fillable = [
         'title',
-        'category_id',
+        'categorie_id',
         'introduction',
         'body',
         'image',
@@ -16,13 +17,10 @@ class Article extends Model
 
     public function category()
     {
-        return $this->belongsTo(Category::class, 'category_id');
+        return $this->belongsTo(Categorie::class, 'categorie_id');
     }
 
-    public function project()
-    {
-        return $this->belongsTo(Project::class, 'project_id');
-    }
+
 
     public function lastObjNb()
     {
@@ -36,11 +34,6 @@ class Article extends Model
             // Handle exception if necessary
         }
         return $last;
-    }
-
-    public function comments()
-    {
-        return $this->hasMany(Comment::class, 'post_id');
     }
 
     public function getCreatedAtAttribute($value)

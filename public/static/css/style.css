@@ -70,18 +70,21 @@ h1,
 h2,
 .fw-bold {
     font-weight: 800 !important;
+    color: #0DB02B;
 }
 
 h3,
 h4,
 .fw-semi-bold {
     font-weight: 700 !important;
+    color: #0DB02B;
 }
 
 h5,
 h6,
 .fw-medium {
     font-weight: 600 !important;
+    color: #E05206;
 }
 
 /*** Button ***/
@@ -109,10 +112,10 @@ h6,
 .btn-secondary:hover {
     box-shadow: inset 0 0 0 0 var(--secondary);
 }
-/*.text-primary{
-    background-color: #E05206;
-    color: #FFFFFF;
-}*/
+.text-primary-1{
+
+   color: #0DB02B
+}
 .btn-square {
     width: 36px;
     height: 36px;
@@ -278,11 +281,13 @@ h6,
 .section-title.text-center::before {
     left: 50%;
     margin-left: -75px;
+    color: #0DB02B;
 }
 
 .section-title.section-title-sm::before {
     width: 90px;
     height: 3px;
+    color: #0DB02B;
 }
 
 .section-title::after {
@@ -437,6 +442,54 @@ h6,
     border-color: #E05206 !important; /* Orange border for buttons on hover */
 }
 
+/* Quote Section */
+.quote-section {
+    padding: 50px 0;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.quote-section .section-title h5 {
+    color: #0DB02B; /* Vert pour le petit titre */
+}
+
+.quote-section .section-title h1 {
+    color: #E05206; /* Orange pour le titre principal */
+}
+
+.quote-section .icon-container {
+    background-color: #0DB02B; /* Vert pour les icônes */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.quote-section .icon-container i {
+    color: white; /* Couleur blanche pour les icônes */
+}
+
+.quote-section .text-primary {
+    color: #0DB02B !important; /* Vert pour les textes primaires */
+}
+
+.quote-section .bg-primary {
+    background-color: #0DB02B !important; /* Orange pour les fonds primaires */
+}
+
+.quote-section .btn-dark {
+    background-color: #E05206; /* Vert pour le bouton */
+    color: white;
+    border: #0DB02B;
+    transition: background-color 0.3s ease;
+}
+
+.quote-section .btn-dark:hover {
+    background-color: #0DB02B; /* Orange pour le bouton au survol */
+}
+
+
 /* Service Section */
 .service-item .service-icon i {
     color: #E05206; /* Orange for icons */
@@ -550,6 +603,44 @@ h6,
     box-shadow: 0 0 30px #DDDDDD;
 }
 
+.testimonial-item {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.testimonial-item:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item img {
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    margin-right: 20px;
+}
+
+.testimonial-item h4 {
+    font-size: 18px;
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.testimonial-item small {
+    font-size: 14px;
+    color: #777777;
+    text-transform: uppercase;
+}
+.testimonial-item-client, .client-name{
+    color: #0DB02B;
+}
+.testimonial-item p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+}
+
 
 /*** Team ***/
 .team-item {
@@ -616,6 +707,22 @@ h6,
 .blog-item:hover .blog-img img {
     transform: scale(1.15);
 }
+/* Blog Section Styles */
+.blog-item .blog-img a {
+    background-color: var(--primary);
+}
+
+.blog-item .d-flex small i {
+    color: #0DB02B; /* Green color for icons */
+}
+
+.blog-item a {
+    color: #E05206; /* Orange color for links */
+}
+
+.blog-item a:hover {
+    color: #C14605; /* Darker orange on hover for links */
+}
 
 
 /*** Miscellaneous ***/
@@ -634,6 +741,22 @@ h6,
     bottom: 45px;
     z-index: 99;
 }
+/* Set the search icon to white */
+.btn.text-primary .fa-search {
+    color: #FFFFFF !important;
+}
+
+/* Set the icons to orange */
+.bi-geo-alt,
+.bi-envelope-open,
+.bi-telephone {
+    color: #E05206 !important;
+}
+/* Set the arrow icons to orange in Quick Links and Popular Links */
+.bi-arrow-right {
+    color: #E05206 !important;
+}
+
 
 .bg-header {
     background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;

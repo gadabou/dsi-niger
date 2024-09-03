@@ -34,7 +34,7 @@ Route::get('vision/', [VisionController::class, 'index'])->name('vision');
 Route::get('status/', [StatusController::class, 'index'])->name('status');
 Route::get('reglement/', [ReglementController::class, 'index'])->name('reglement');
 Route::get('contact/', [ContactController::class, 'index'])->name('contact');
-//Route::get('apropos/', [AproposController::class, 'index'])->name('apropos');
+Route::get('equipe/', [TeamController::class, 'index'])->name('equipe');
 //Route::get('contact/', [AproposController::class, 'index'])->name('apropos');
 
 // Routes pour le CRUD des articles

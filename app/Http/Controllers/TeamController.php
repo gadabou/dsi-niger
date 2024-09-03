@@ -13,7 +13,7 @@ class TeamController extends Controller
     public function index()
     {
         // Récupérer tous les membres de l'équipe
-        //$teams = Team::orderBy('date_joined', 'desc')->get();
+        $teams = Team::orderBy('created_by', 'desc')->get();
         return view('teams.index');
     }
 
@@ -23,8 +23,8 @@ class TeamController extends Controller
     public function create()
     {
         // Récupérer toutes les sous-équipe pour le formulaire
-        $subTeams = SubTeam::all();
-        return view('teams.create', compact('subTeams'));
+        //$subTeams = Team::all();
+        return view('teams.form');
     }
 
     /**
@@ -35,9 +35,16 @@ class TeamController extends Controller
         // Valider les données envoyées par le formulaire
         $validatedData = $request->validate([
             'user_id' => 'required|exists:users,id',
-            'sub_team_id' => 'required|exists:sub_teams,id',
-            'civility' => 'nullable|string|max:20',
-            'profession' => 'nullable|string|max:20',
+            'nom' => 'nullable|string|max:20',
+            'prenom' => 'nullable|string|max:20',
+            'civilite' => 'nullable|string|max:20',
+            'date_naissance' => 'nullable|date|max:20',
+            'lieu_naissance' => 'nullable|string|max:20',
+            'structure' => 'nullable|string|max:20',
+            'adresse' => 'nullable|string|max:20',
+            'position' => 'nullable|string|max:20',
+            'telephone' => 'nullable|string|max:20',
+            'ville' => 'nullable|string|max:20',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 

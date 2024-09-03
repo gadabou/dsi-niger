@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('position');
             $table->string('telephone');
             $table->string('ville');
+            $table->string('image');
             $table->unsignedBigInteger('created_by')->nullable();
             $table->timestamps();
         });
