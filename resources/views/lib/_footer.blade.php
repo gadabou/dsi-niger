@@ -8,32 +8,29 @@
                         <!--h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Startup</h1-->
                         <img src="{{asset('img/logo-dsi.jpeg')}}" alt="Logo" class="me-2" style="height: 90px;">
                     </a>
-                    <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                            <button class="btn btn-dark">Sign Up</button>
-                        </div>
-                    </form>
+                    <p class="mt-3 mb-4">L’Association « Club DSI NIGER» est dotée de la personnalité morale. Elle est laïque, apolitique et à but non lucratif.
+                        Elle exclut toute forme de discrimination. Sa durée est de 99 ans. </p>
+                    <p class="mt-3 mb-4">L'Association « Club DSI NIGER» a pour objectif global de promouvoir l'usage des systèmes d'information comme facteur de création de valeur pour l'entreprise et l’administration. </p>
+
                 </div>
             </div>
             <div class="col-lg-8 col-md-6">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-md-12 pt-5 mb-5">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0">Get In Touch</h3>
+                            <h3 class="text-light mb-0">Localisation</h3>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2"></i>
-                            <p class="mb-0">123 Street, New York, USA</p>
+                            <p class="mb-0">BP: 123, Niamey, Niger</p>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-envelope-open text-primary me-2"></i>
-                            <p class="mb-0">info@example.com</p>
+                            <p class="mb-0">info@dsiniger.org</p>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-telephone text-primary me-2"></i>
-                            <p class="mb-0">+012 345 67890</p>
+                            <p class="mb-0">+227 96 53 53 93</p>
                         </div>
                         <div class="d-flex mt-4">
                             <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
@@ -44,29 +41,39 @@
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0">Quick Links</h3>
+                            <h3 class="text-light mb-0">Raccourcis</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>A propos</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Vision</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Status</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Règlement intérieur</a>
+                            <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Actualités</a>
                             <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0">Popular Links</h3>
+                            <h3 class="text-light mb-0">Récents Evènements</h3>
                         </div>
-                        <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                            <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+
+                        <!-- Recent Post Start -->
+                        <div class="mb-5 wow slideInUp d-flex flex-column justify-content-start" data-wow-delay="0.1s">
+                            <div class="d-flex rounded overflow-hidden mb-3">
+                                <img class="img-fluid" src="{{asset('img/forum.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                                <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Assemblée générale du Club des DSI Niger
+                                </a>
+                            </div>
+                            <div class="d-flex rounded overflow-hidden mb-3">
+                                <img class="img-fluid" src="{{asset('img/forum2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                                <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Séance de formation à l'usage de l'IA
+                                </a>
+                            </div>
+
                         </div>
+                        <!-- Recent Post End -->
+
                     </div>
                 </div>
             </div>
