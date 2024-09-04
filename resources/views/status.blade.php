@@ -37,162 +37,69 @@
     <!-- Service Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-                <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px; color: #0DB02B">
+                <h5 class="fw-bold text-uppercase">CHAPITRE I :</h5>
+                <h1 class="mb-0">L’ASSEMBLEE GENERALE</h1>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-shield-alt text-white"></i>
+            <div class="">
+                <div class="col-lg-12 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="p-4">
+                            <h4 class="mb-3">Article 12. Attributions</h4>
+                            L’Assemblée Générale est l'instance suprême de l’Association. A ce titre, elle :
+                            <ul>
+
+                                <li>fixe les orientations Générales de l’Association;</li>
+                                <li>élit les membres du Bureau Exécutif et les Commissaires aux Comptes, et met fin à leurs mandats en cas de faute jugée grave;</li>
+                                <li>se prononce sur les demandes de démission des membres du Bureau Exécutif;</li>
+                                <li>entend les explications des membres proposés à l’exclusion avant de statuer sur leurs cas;</li>
+                                <li>fixe les cotisations des membres;</li>
+                                <li>entend les rapports (moral et financier) sur la gestion du Bureau Exécutif et statue sur leur approbation;</li>
+                                <li>entend les rapports des Commissaires aux Comptes;</li>
+                                <li>approuve les comptes de l'exercice clos et se prononce sur l'affectation des résultats;</li>
+                                <li>adopte le programme d’activités de l’année;</li>
+                                <li>vote le budget prévisionnel de l’année;</li>
+                                <li>procède à la relecture des textes de l’Association;</li>
+                                <li>se prononce sur l’affiliation ou la fusion de l’Association « Club DSI NIGER» avec d’autres organisations;</li>
+                                <li>délibère sur les questions inscrites à l’ordre du jour.</li>
+                            </ul>
                         </div>
-                        <h4 class="mb-3">Cyber Security</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-chart-pie text-white"></i>
+                <div class="col-lg-12 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="p-4">
+                            <h4 class="mb-3">Article 13. Composition</h4>
+                            L'Assemblée Générale est composée de tous les membres de l’Association à jour de leurs cotisations au jour de la convocation.
+                            Les membres d’honneur sont libres d’assister à l’AG sans droit de vote.
+                            Cependant, peut être invitée à l'Assemblée Générale toute personne physique ou morale non membre de l’Association, dont la présence est jugée utile.
                         </div>
-                        <h4 class="mb-3">Data Analytics</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-code text-white"></i>
+                <div class="col-lg-12 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="p-4">
+                            <h4 class="mb-3">Article 14. Types de session</h4>
+                            <p>L’Assemblée Générale se réunit selon deux (02) types de session :</p>
+
+                            <p><strong>Les sessions ordinaires :</strong></p>
+                            <li>L’Assemblée Générale se réunit en session ordinaire au moins une fois par an sur convocation faite par le Président du Bureau Exécutif ou son intérimaire adressée au moins quinze (15) jours à l’avance aux membres de l’Association à jour dans leur cotisation et mentionnant l’ordre du jour;</li>
+                            <li>Pour délibérer valablement, l’Assemblée Générale doit être au moins composée de la moitié des membres et les décisions doivent être prises à la majorité des membres présents.</li>
+                            <li>Ne peuvent être abordés que les points inscrits à l’ordre du jour;</li>
+
+                            <p><strong>Les sessions extraordinaires :</strong></p>
+                            <li>L’Assemblée Générale se réunit en session extraordinaire sur convocation faite par le Président du Bureau Exécutif ou son intérimaire, ou la majorité des membres du bureau exécutifs adressée au moins quinze (15) jours à l’avance aux membres de l’Association à jour dans leur cotisation et mentionnant l’ordre du jour.</li>
+                            <li>Le quorum de l’Assemblée Générale Extraordinaire est fixé aux trois quart (3/4) des membres et les décisions sont valablement prises lorsqu’elles sont adoptées à la majorité des membres présents.</li>
+                            <p><strong>L’Assemblée Générale extraordinaire est compétente pour :</strong></p>
+                            <li>décider de la fusion ou de l’affiliation du « Club DSI NIGER» avec toute autre Association poursuivant les mêmes objectifs;</li>
+                            <li>modifier les statuts.</li>
+
                         </div>
-                        <h4 class="mb-3">Web Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fab fa-android text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Apps Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-search text-white"></i>
-                        </div>
-                        <h4 class="mb-3">SEO Optimization</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                        <h3 class="text-white mb-3">Call Us For Quote</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Service End -->
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
-                <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{asset('img/testimonial-1.jpg')}}" style="width: 60px; height: 60px;" >
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
-                        </div>
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 60px; height: 60px;" >
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
-                        </div>
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{asset('img/testimonial-3.jpg')}}" style="width: 60px; height: 60px;" >
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
-                        </div>
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{asset('img/testimonial-4.jpg')}}" style="width: 60px; height: 60px;" >
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
-                        </div>
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-    <!-- Vendor Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5 mb-5">
-            <div class="bg-white">
-                <div class="owl-carousel vendor-carousel">
-                    <img src="{{asset('img/vendor-1.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-2.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-3.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-4.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-5.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-6.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-7.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-8.jpg')}}" alt="">
-                    <img src="{{asset('img/vendor-9.jpg')}}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor End -->
 
 @endsection
