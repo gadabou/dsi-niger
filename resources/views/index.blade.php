@@ -9,7 +9,7 @@
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
                         <h3 class="display-1 text-white mb-md-4 animated zoomIn">Club des Directeurs des Systèmes d'Information du Niger</h3>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
+                        <a href="{{route('teams.create')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
                         <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
                     </div>
                 </div>
@@ -20,7 +20,29 @@
                     <div class="p-3" style="max-width: 900px;">
                         <h5 class="text-white text-uppercase mb-3 animated slideInDown">Créativité et innovation</h5>
                         <h1 class="display-1 text-white mb-md-4 animated zoomIn">Conférences</h1>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
+                        <a href="{{route('teams.create')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
+                        <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="{{asset('img/forum.jpg')}}" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">Veille technologique</h5>
+                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Formations</h1>
+                        <a href="{{route('teams.create')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
+                        <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="{{asset('img/echange.jpg')}}" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">Table ronde</h5>
+                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Echanges</h1>
+                        <a href="{{route('teams.create')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
                         <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
                     </div>
                 </div>
