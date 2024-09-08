@@ -231,7 +231,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/sg.jpeg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/president.jpeg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -240,7 +240,7 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="" style="color: #E05206">WADATAOU MAMAN Lawal</h4>
+                            <h4 class="" style="color: #E05206">AHMED Allassane</h4>
                             <p class="text-uppercase m-0">Président</p>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/sg.jpeg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/tresorier.jpeg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -274,7 +274,7 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="" style="color: #E05206">WADATAOU MAMAN Lawal</h4>
+                            <h4 class="" style="color: #E05206">ARZIKA Sabioul</h4>
                             <p class="text-uppercase m-0">Trésorier Général</p>
                         </div>
                     </div>
@@ -282,7 +282,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/sg.jpeg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/tresorier-adjoint.jpeg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -291,7 +291,24 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="" style="color: #E05206">WADATAOU MAMAN Lawal</h4>
+                            <h4 class="" style="color: #E05206">MOUTARI Maman</h4>
+                            <p class="text-uppercase m-0">Trésorier Général Adjoint</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/communication.jpeg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="" style="color: #E05206">HABIBOU Hamani</h4>
                             <p class="text-uppercase m-0">Secrétaire à la Communication, et aux Relations Extérieures</p>
                         </div>
                     </div>
@@ -299,6 +316,7 @@
             </div>
         </div>
     </div>
+
     <!-- Team End -->
 
 
@@ -313,16 +331,16 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('img/forum.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('img/blog1.jpeg')}}" alt="">
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
                                 <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                <small><i class="far fa-calendar-alt me-2"></i>01 Juillet, 2024</small>
+                                <small><i class="far fa-calendar-alt me-2"></i>21 Juin, 2024</small>
                             </div>
-                            <h4 class="mb-3">Assemblée générale du Club des DSI Niger</h4>
-                            <p>L’association « Club DSI-NIGER » est une association qui regroupe les Directeurs des Systèmes d’Information et Responsables Informatiques des entreprises...</p>
-                            <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
+                            <h4 class="mb-3">Le Ministre de la Communication, des Postes et de L'Economie Numérique a reçu en audience les membres du bureau exécutif du Club des DSI du Niger</h4>
+                            <p>Niamey, 21 juin 2024, le Ministre de la Communication, des Postes et de L'Economie...</p>
+                            <a class="text-uppercase" href="{{route('article1')}}">Lire <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

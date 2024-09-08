@@ -61,8 +61,8 @@
                         <!-- Recent Post Start -->
                         <div class="mb-5 wow slideInUp d-flex flex-column justify-content-start" data-wow-delay="0.1s">
                             <div class="d-flex rounded overflow-hidden mb-3">
-                                <img class="img-fluid" src="{{asset('img/forum.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                                <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Assemblée générale du Club des DSI Niger
+                                <img class="img-fluid" src="{{asset('img/blog1.jpeg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                                <a href="{{route('article1')}}" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Le Ministre de la Communication, des Postes et de L'Economie...
                                 </a>
                             </div>
                             <div class="d-flex rounded overflow-hidden mb-3">

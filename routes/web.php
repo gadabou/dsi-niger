@@ -39,6 +39,7 @@ Route::get('equipe/', [TeamController::class, 'index'])->name('equipe');
 
 // Routes pour le CRUD des articles
 Route::resource('articles', ArticleController::class);
+Route::get('article1/', [ArticleController::class, 'article1'])->name('article1');
 Route::resource('categories', CategorieController::class);
 Route::resource('comments', CommentController::class);
 Route::resource('teams', TeamController::class);

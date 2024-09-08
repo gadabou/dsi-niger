@@ -44,16 +44,16 @@
                         <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/forum.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/blog1.jpeg')}}" alt="">
                                 </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
                                         <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>01 Juillet, 2024</small>
+                                        <small><i class="far fa-calendar-alt me-2"></i>21 Juin, 2024</small>
                                     </div>
-                                    <h4 class="mb-3">Assemblée générale du Club des DSI Niger</h4>
-                                    <p>L’association « Club DSI-NIGER » est une association qui regroupe les Directeurs des Systèmes d’Information et Responsables Informatiques des entreprises...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
+                                    <h4 class="mb-3">Le Ministre de la Communication, des Postes et de L'Economie Numérique a reçu en audience les membres du bureau exécutif du Club des DSI du Niger</h4>
+                                    <p>Niamey, 21 juin 2024, le Ministre de la Communication, des Postes et de L'Economie...</p>
+                                    <a class="text-uppercase" href="{{route('article1')}}">Lire <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -89,121 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/forum.jpg')}}" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>01 Juillet, 2024</small>
-                                    </div>
-                                    <h4 class="mb-3">Assemblée générale du Club des DSI Niger</h4>
-                                    <p>L’association « Club DSI-NIGER » est une association qui regroupe les Directeurs des Systèmes d’Information et Responsables Informatiques des entreprises...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/forum2.jpg')}}" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>14 Mars, 2024</small>
-                                    </div>
-                                    <h4 class="mb-3">Séance de formation au bon usage des outils de l’intelligence artificielle (IA)</h4>
-                                    <p>Dans les mesures d’application des orientations stratégiques pour l’intégration de l’intelligence artificielle (IA)...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/about2.jpg')}}" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>11 Janvier, 2024</small>
-                                    </div>
-                                    <h4 class="mb-3">Lancement Officiel du Club des DSI Niger</h4>
-                                    <p>Il est créé au NIGER, une Association dénommée « Club des Directeurs des Systèmes d’Information du Niger», en abrégé « Club DSI NIGER »...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/forum.jpg')}}" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>01 Juillet, 2024</small>
-                                    </div>
-                                    <h4 class="mb-3">Assemblée générale du Club des DSI Niger</h4>
-                                    <p>L’association « Club DSI-NIGER » est une association qui regroupe les Directeurs des Systèmes d’Information et Responsables Informatiques des entreprises...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/forum2.jpg')}}" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>14 Mars, 2024</small>
-                                    </div>
-                                    <h4 class="mb-3">Séance de formation au bon usage des outils de l’intelligence artificielle (IA)</h4>
-                                    <p>Dans les mesures d’application des orientations stratégiques pour l’intégration de l’intelligence artificielle (IA)...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="{{asset('img/about2.jpg')}}" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user me-2"></i>GADO Abou</small>
-                                        <small><i class="far fa-calendar-alt me-2"></i>11 Janvier, 2024</small>
-                                    </div>
-                                    <h4 class="mb-3">Lancement Officiel du Club des DSI Niger</h4>
-                                    <p>Il est créé au NIGER, une Association dénommée « Club des Directeurs des Systèmes d’Information du Niger», en abrégé « Club DSI NIGER »...</p>
-                                    <a class="text-uppercase" href="">Lire <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
-                            <nav aria-label="Page navigation">
-                                <ul class="pagination pagination-lg m-0">
-                                    <li class="page-item disabled">
-                                        <a class="page-link rounded-0" href="#" aria-label="Previous">
-                                            <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link rounded-0" href="#" aria-label="Next">
-                                            <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+
                     </div>
                 </div>
                 <!-- Blog list End -->
@@ -239,8 +125,8 @@
                             <h3 class="mb-0">Récents activités</h3>
                         </div>
                         <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/forum.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Assemblée générale du Club des DSI Niger
+                            <img class="img-fluid" src="{{asset('img/blog1.jpeg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="{{route('article1')}}" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Le Ministre de la Communication, des Postes et de L'Economie...
                             </a>
                         </div>
                         <div class="d-flex rounded overflow-hidden mb-3">
@@ -253,21 +139,7 @@
                             <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Assemblée générale du Club des DSI Niger
                             </a>
                         </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/forum2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Séance de formation à l'usage de l'IA
-                            </a>
-                        </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/forum.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Assemblée générale du Club des DSI Niger
-                            </a>
-                        </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/forum2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Séance de formation à l'usage de l'IA
-                            </a>
-                        </div>
+
                     </div>
                     <!-- Recent Post End -->
 

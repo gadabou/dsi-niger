@@ -19,6 +19,16 @@ class ArticleController extends Controller
     }
 
     /**
+     * Display article 1 in detail.
+     */
+    public function article1()
+    {
+        #$articles = Article::ordered()->get();
+        #return view('articles.index', compact('articles'));
+        return view('article.detail_article1');
+    }
+
+    /**
      * Show the form for creating a new resource.
      */
     public function create()
